@@ -5,8 +5,6 @@ $(document).ready(() => {
 })
 
 var swiper = new Swiper(".mySwiperProduct", {
-    slidesPerView: 4,
-    spaceBetween: 30,
     pagination: {
       el: ".swiper-pagination",
     },
@@ -28,5 +26,15 @@ var swiper = new Swiper(".mySwiperProduct", {
             spaceBetween: 30,
         }
        
+    }
+  });
+
+  var swiper = new Swiper(".mySwiperTesti", {
+    slidesPerView: 1,
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    autoplay: {
+        delay: 2500
     }
   });

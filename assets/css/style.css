@@ -226,6 +226,29 @@
     margin-top: 200px;
 }
 
+/* Testimoni */
+.testimoni{
+    margin-top: 200px;
+    background-color: var(--secondary-color);
+    border-radius: 50px 50px 0px 0px;
+    padding-top: 70px;
+}
+.testimoni .row-content{
+    margin-top: 80px;
+}
+
+.testimoni .swiper{
+    max-width: 700px !important;
+}
+.testimoni .card .card-body{
+    width: 90%;
+}
+.testimoni .card .img-user{
+    width: 100px;
+}
+.testimoni .card-body i{
+    font-size: 50px;
+}
 
 
 /* Responsive */
@@ -247,6 +270,9 @@
 @media screen and (max-width: 768px) {
     .section-margin{
         margin-top: 150px;
+    }
+    .banner{
+        margin-top: 100px;
     }
 }
 
@@ -276,10 +302,13 @@
     .about .btn-about{
         margin-top: 50px;
     }
-    .product .heading-section{
+    .product .heading-section, .testimoni .heading-section{
         font-size: 28px;
     }
     .banner{
         margin-top: 50px;
+    }
+    .product{
+        margin-top: 120px;
     }
 }
